@@ -93,7 +93,7 @@ export default function Layout() {
               &copy; {new Date().getFullYear()} <span className="font-semibold text-gray-700">App Faktur</span>. Hak Cipta Dilindungi.
             </div>
             <div className="flex items-center gap-1.5 text-xs">
-              Membantu bisnis lokal bertumbuh dengan
+              Taekwondo Club Tindon Johar Baru - Jakarta Pusat
               <svg className="w-3.5 h-3.5 text-red-500 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
               </svg>
