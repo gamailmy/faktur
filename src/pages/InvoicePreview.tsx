@@ -200,7 +200,7 @@ export default function InvoicePreview() {
                 )}
               </div>
               <div className="bg-gray-900 text-white p-4 rounded-xl flex justify-between font-bold text-lg items-center">
-                <span>Total Tagihan</span>
+                <span>Total Dibayarkan</span>
                 <span>{formatCurrency(invoice.total)}</span>
               </div>
             </div>
