@@ -90,7 +90,7 @@ export default function Layout() {
           {/* Footer */}
           <footer className="mt-12 pt-6 pb-2 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
             <div>
-              &copy; {new Date().getFullYear()} <span className="font-semibold text-gray-700">FakturPro</span>. Hak Cipta Dilindungi.
+              &copy; {new Date().getFullYear()} <span className="font-semibold text-gray-700">App Faktur</span>. Hak Cipta Dilindungi.
             </div>
             <div className="flex items-center gap-1.5 text-xs">
               Membantu bisnis lokal bertumbuh dengan
