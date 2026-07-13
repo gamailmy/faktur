@@ -53,13 +53,13 @@ export default function Customers() {
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold text-gray-900">Pelanggan</h1>
+        <h1 className="text-2xl font-bold text-gray-900">Siswa</h1>
         <button
           onClick={() => handleOpenModal()}
           className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
         >
           <Plus size={18} />
-          Tambah Pelanggan
+          Tambah Siswa
         </button>
       </div>
 
@@ -78,7 +78,7 @@ export default function Customers() {
               {customers.length === 0 ? (
                 <tr>
                   <td colSpan={4} className="px-6 py-8 text-center text-gray-500">
-                    Belum ada data pelanggan.
+                    Belum ada data Siswa.
                   </td>
                 </tr>
               ) : (
@@ -114,7 +114,7 @@ export default function Customers() {
       <Modal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
-        title={editingCustomer ? 'Edit Pelanggan' : 'Tambah Pelanggan'}
+        title={editingCustomer ? 'Edit Data Siswa' : 'Tambah Data Siswa'}
       >
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -175,11 +175,11 @@ export default function Customers() {
       <Modal
         isOpen={!!deleteId}
         onClose={() => setDeleteId(null)}
-        title="Hapus Pelanggan"
+        title="Hapus Data Siswa"
       >
         <div className="space-y-6">
           <p className="text-gray-600">
-            Apakah Anda yakin ingin menghapus pelanggan ini? Data yang dihapus tidak dapat dikembalikan.
+            Apakah Anda yakin ingin menghapus data siswa ini? Data yang dihapus tidak dapat dikembalikan.
           </p>
           <div className="flex justify-end gap-3 pt-2">
             <button
