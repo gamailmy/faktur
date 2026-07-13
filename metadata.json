@@ -1,6 +1,6 @@
 {
-  "name": "FakturPro",
-  "description": "Aplikasi generator faktur profesional dengan manajemen pelanggan dan produk.",
+  "name": "Faktur TindonPay",
+  "description": "Aplikasi generator faktur profesional dengan manajemen siswa dan iuran.",
   "requestFramePermissions": [],
   "majorCapabilities": []
 }
