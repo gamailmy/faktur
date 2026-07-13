@@ -105,14 +105,14 @@ export default function InvoiceForm() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Pelanggan</label>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Siswa</label>
               <select
                 required
                 value={customerId}
                 onChange={(e) => setCustomerId(e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
               >
-                <option value="">Pilih Pelanggan</option>
+                <option value="">Pilih Nama Siswa</option>
                 {customers.map(c => (
                   <option key={c.id} value={c.id}>{c.name}</option>
                 ))}
@@ -257,7 +257,7 @@ export default function InvoiceForm() {
               rows={4}
               value={notes}
               onChange={(e) => setNotes(e.target.value)}
-              placeholder="Catatan tambahan untuk pelanggan..."
+              placeholder="Catatan tambahan untuk siswa..."
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none resize-none"
             />
           </div>
